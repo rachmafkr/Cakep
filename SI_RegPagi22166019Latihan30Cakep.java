@@ -18,10 +18,12 @@ public class SI_RegPagi22166019Latihan30Cakep {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
+        // Menentukan print out pertanyaan
         System.out.println("Kamu ngerjain sendiri latihan 17 sampai latihan 30 ini? ");
         System.out.print("Jawab (Yoi/Enggak): ");
         String jawab = scanner.next();
         
+        // Memasukkan kondisi
         if (jawab.contains("Yoi")) {
             System.out.println("Cakep Bener. Good Job");
         } else {
